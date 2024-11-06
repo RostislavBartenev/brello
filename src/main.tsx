@@ -6,7 +6,7 @@ import { Application } from "./application";
 import "./index.css";
 
 createRoot(document.getElementById("root")!).render(
-  <MantineProvider>
+  <MantineProvider defaultColorScheme="auto">
     <Application />
   </MantineProvider>,
 );
